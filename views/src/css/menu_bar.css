@@ -1,5 +1,7 @@
 
 #nav {
+    /*스크롤 인식해서 스크롤 내려지면 fixed 형식으로 바꾸기*/
+    /*원래 sticky 였는데 html 오른쪽 공백 때문에 overflow를 주게 되어 없앰.*/
     position: sticky;
     display: flex;
     /*border: 1px solid black;*/
@@ -11,6 +13,7 @@
     white-space: nowrap; /*줄바꿈 없애줌*/
     background: rgba(255, 255, 255, 0.8);
     z-index: 102;
+    width: 100%;
 }
 
 #logo {

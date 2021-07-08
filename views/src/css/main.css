@@ -2,9 +2,11 @@ html, body {
     /*width: 100%의 여백 없애기 용*/
     margin: 0;
     padding: 0;
-    width: 100%;
+    /*width: 100%;*/
     cursor: default;
-
+    width: 100%;
+    min-width: 100%;
+    /*overflow-x: hidden;*/
 }
 
 a {
