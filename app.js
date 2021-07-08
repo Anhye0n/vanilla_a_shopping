@@ -8,6 +8,6 @@ app.get('/', function (req, res){
     res.redirect('/shop')
 })
 
-app.listen(80, function () {
+app.listen(8070, function () {
     console.log('A.shopping server is open(port: 80) http://anhye0n.me')
 })
