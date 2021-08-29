@@ -2,9 +2,9 @@ let back_image = document.getElementsByClassName('best_site_img')
 
 function img_change() {
     for (i = 0; i < 40; i++) {
-        if (back_image[i].src === 'http://anhye0n.me/shop/src/img/b2.jpg') {
+        if (back_image[i].src === 'http://anhye0n.me:8070/shop/src/img/b2.jpg') {
             back_image[i].src = 'src/img/b1.jpg'
-        } else if (back_image[i].src === 'http://anhye0n.me/shop/src/img/b1.jpg') {
+        } else if (back_image[i].src === 'http://anhye0n.me:8070/shop/src/img/b1.jpg') {
             back_image[i].src = 'src/img/b2.jpg'
         }
     }
